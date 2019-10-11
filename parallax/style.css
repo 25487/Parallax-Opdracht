@@ -1,0 +1,74 @@
+* {
+  font-family: 'Arial', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 70vh;
+  padding: 3em;
+  transition: all 1s linear;
+}
+
+.deel {
+  padding: 30vh 3em;
+  background-color: aliceblue;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 3em;
+  color: rgba(255,255,255,0.7);
+  text-shadow: 0 0 3px grey;
+  overflow-x: hidden;
+}
+
+nav {
+  background: #444;
+  position: sticky;
+  transition: top 1s ease-out;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+nav a {
+  color: #AAA;
+  display: block;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+nav a:hover {
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+}
+
+.deel--2 {
+  background-image: url("https://images6.alphacoders.com/402/402163.jpg") ;
+}
+
+.deel--4 {
+  background-image: url("https://raymsfotosite.nl/wp-content/uploads/blog/700kbfb.jpg")
+}
+
+.deel--6 {
+  background-image: url("https://www.holland.com/upload_mm/d/0/7/69550_fullimage_fietsen-amsterdam_1360x.jpg")
+}
+
+#voortgang {
+  position: fixed;
+  bottom: 0;
+  height: 5px;
+  background-color: black;
+}
+.accent {
+  color: black;
+  background-color: lightgrey;
+}
